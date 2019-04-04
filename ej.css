@@ -3,7 +3,23 @@ body {
 
 }
 
-p {
-    font-color: white;
+h1 {
+    background-color: bisque;
+    color: white;
+
     
+}
+
+.container {
+    color: white;
+    border-style: dotted;
+    border-color: bisque
+    
+}
+
+p {
+    display: -moz-inline-grid;
+    grid-template-columns: 5px;
+    grid-template-rows: 5px;
+
 }

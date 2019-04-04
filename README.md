@@ -1,12 +1,10 @@
 # mysite
 
-The tools, skills, and languages that I've used:
+The tools, skills, and languages that I'm currently using:
 
 1. HTML/CSS
 2. Git
 3. Terminal
-3. Visual Studio Code
-4. Brave Browser
-5. Chrome Browser
-6. Evernote
-7. Intro to Ruby on Rails
+4. Visual Studio Code 
+5. Chrome DevTools
+6. Chrome Browser
