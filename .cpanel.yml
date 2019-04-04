@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export home/elishajo/ej=/home/user/public_html/
-    - /bin/cp -R images $home/elishajo/ej
+    - export public_html/mysite=/home/user/public_html/
+    - /bin/cp -R images $home/elishajo/public_html/mysite
