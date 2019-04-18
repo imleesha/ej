@@ -3,17 +3,25 @@ body {
 
 }
 
-h1 {
-    background-color: bisque;
-    color: white;
+.Grand {
+    word-spacing: 20px;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: dotted;
+    border-color: rgb(192, 149, 97);
+    font-size: 150px;
+}
 
+.project {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
     
 }
 
 .container {
     color: white;
-    border-style: dotted;
-    border-color: bisque
+    
     
 }
 
