@@ -10,7 +10,7 @@ h1.playground {
     color: black;
     font-family: "Roboto", sans-serif;
     background-color: navajowhite;
-    font-size: 22px;
+    font-size: 18px;
     height: 75%;
     width: 85%;
     border: 5px, solid;
@@ -63,4 +63,8 @@ ul {
     position: absolute;
     left: 95%;
 
+}
+
+p.home {
+    color: red;
 }
