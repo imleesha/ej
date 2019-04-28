@@ -1,70 +1,31 @@
 body {
-    background-color: navajowhite;
-    position: relative;
-    width: 100%;
-    background-image:
+    background-color: black;
 }
 
-h1.playground {
-    word-spacing: 5px;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    background-color: navajowhite;
-    font-size: 18px;
-    height: 75%;
-    width: 85%;
-    border: 5px, solid;
-    border-color: red;
-    border-radius: 20px;
+#logo {
     text-align: center;
-
+    color: silver;
+    border-style: solid solid dotted;
+    border-width: 10px;
 }
 
-h1 {
-    margin-right: 1em;
+ul {
+    text-align: center;
 }
 
-#nav {
-  width: 15%;
-  height: 100%;
-  position: relative;
-
+.updates li{
+    margin: 0 auto;
+    width: 60px;
+    display: inline-block;
+    list-style: none;
 }
 
 a {
-    display: inline;
-    color: black;
-    border-color: black;
     text-decoration: none;
-    list-style: none;
-    font-size: 25px;
-    line-height: 50px;
-    text-align: justify;
-    border-radius: 50px 15px;
-    padding: 15px;
-    border-left: 3px solid green;
-    border-outline: black;
-    
+    color: silver;
+    font-size: 1em;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-ul {
-    list-style-type: none;
-}
-
-#light img{
-    float: right;
-    height: 50px;
-    width: 50px;
-    top: 0;
-    position: absolute;
-    left: 95%;
-
-}
-
-p.home {
-    color: red;
 }
