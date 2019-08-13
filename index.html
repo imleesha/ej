@@ -1,176 +1,144 @@
 <!DOCTYPE html>
 <html>
-<title>Elisha Jobe's Blog</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        font-family: "Raleway", sans-serif
-    }
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
-
 <body class="w3-light-grey">
 
-    <!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-    <div class="w3-content" style="max-width:1400px">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-        <!-- Header -->
-        <header class="w3-container w3-center w3-padding-32">
-            <h1><b>The River</b></h1>
-            <p>Welcome to the blog of <span class="w3-tag">Elisha Jobe</span></p>
-        </header>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Jane Doe</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+          <hr>
 
-        <!-- Grid -->
-        <div class="w3-row">
-
-            <!-- Blog entries -->
-            <div class="w3-col l8 s12">
-                <!-- Blog entry -->
-                <div class="w3-card-4 w3-margin w3-white">
-                    <img src="https://cdn.pixabay.com/photo/2015/03/18/09/29/the-scenery-679011_1280.jpg" alt="Flowing River" style="width: 100%">
-                    <div class="w3-container">
-                        <h3><b>Fun Friday</b></h3>
-                        <h5>TGIF <span class="w3-opacity">May 17th 2019</span><h5>
-                        </div>
-                    <div class="w3-container">
-                        <p>It has been so nice being able to run and do errands during the week.
-                            I'm pretty grateful that I've been able to get some housework and 
-                            errands done lately. It can be said that when it rains, it pours.
-                            Our toilet, bathroom light fixture, and fridge in the kitchen broke, 
-                            but I'm 
-                            grateful that we have our old fridge in the garage that still works!
-                            Hopefully the toilet and light fixture are going to be easy fixes.<br>
-                            Being a homeowner is hard! 
-                            </p>
-                        <div class="w3-row">
-                            <div class="w3-col m8 s12">
-                            </div>
-                            <div class="w3-col m4 w3-hide-small">
-                                <p><span class="w3-padding-large w3-right"><b>  </b> <span class="w3-tag"></span></span></p>
-                            </div>
-                        </div>
-                        </div>
-                        </div>
-                        <hr>
-                <div class="w3-card-4 w3-margin w3-white">
-                    <img src="/images/coffee.jpg" alt="Coffee" style="width:100%">
-                    <div class="w3-container">
-                        <h3><b>Rise and Grind</b></h3>
-                        <h5>A Growth Mindset <span class="w3-opacity">May 16th 2019</span></h5>
-                    </div>
-
-                    <div class="w3-container">
-                        <p>I would say that the secret to success is having a growth mindset.
-                        You will never have all of the answers. I will never know why some things
-                        happen in the world and that is okay. You just have to be willing to put in the time, 
-                        energy and effort it takes to figure out whatever <em>it</em> is that you are trying to do. 
-                        I want to help as many people as I can to enjoy the limited amount of time that we have on this earth.<br>
-                        Our time is the only thing that is truly valuable.
-                        </p>
-                        <div class="w3-row">
-                            <div class="w3-col m8 s12">
-                               
-                            </div>
-                            <div class="w3-col m4 w3-hide-small">
-                                <p><span class="w3-padding-large w3-right"><b>  </b> <span
-                                            class="w3-tag"></span></span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-
-                <!-- Blog entry -->
-                <div class="w3-card-4 w3-margin w3-white">
-                <img src="/images/puzzle.jpg" alt="Puzzle Pieces" style="width:100%">
-                    <div class="w3-container">
-                    <h3><b>Picking Up The Pieces</b></h3>
-                    <h5>Making Sense of Life's Puzzle <span class="w3-opacity">May 16th 2019</span></h5>
-                        <h5> <span class="w3-opacity"></span></h5>
-                    </div>
-
-                    <div class="w3-container">
-                        <p>
-                        </p>
-                        <div class="w3-row">
-                            <div class="w3-col m8 s12">
-                            </div>
-                            <div class="w3-col m4 w3-hide-small">
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END BLOG ENTRIES -->
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
             </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
 
-            <!-- Introduction menu -->
-            <div class="w3-col l4">
-                <!-- About Card -->
-                <div class="w3-card w3-margin w3-margin-top">
-                    <img src="/images/profile.jpg" style="width:100%">
-                    <div class="w3-container w3-white">
-                        <h4><b>Elisha Jobe</b></h4>
-                        <p>My name is Elisha, and I am married with two daughters--a 9-year-old and a one year-old. While I have worked as an
-                        account manager for insurance companies for the last seven years, I am looking for a new direction in my career. I recently
-                        graduated with an MBA in Marketing. 
-                        
-                        I am a member of the Women Growing Together Express Network (WGTEN) and have been a member of Victoria Professional
-                        Express Network (VPEN), both chapters of the American Business Women's Association (ABWA). I have also twice been named
-                        Business Woman of the Month--once for VPEN and once for WGTEN.
-                        </p>
-                    </div>
-                </div>
-                <hr>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
 
-                <!-- Posts -->
-                
-
-                <!-- Labels / tags -->
-                <div class="w3-card w3-margin">
-                    <div class="w3-container w3-padding">
-                        <h4>Tags</h4>
-                    </div>
-                    <div class="w3-container w3-white">
-                        <p><span class="w3-tag w3-black w3-margin-bottom">Travel Tips</span> <span
-                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Global Citizen</span> <span
-                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Internet Marketing</span>
-                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopify</span> <span
-                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">E-Commerce</span> <span
-                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Creative Ideas</span> <span
-                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span
-                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span
-                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Online Degrees</span> <span
-                        </p>
-                    </div>
-                </div>
-
-                <!-- END Introduction Menu -->
-            </div>
-
-            <!-- END GRID -->
-        </div><br>
-
-        <!-- END w3-content -->
+    <!-- End Left Column -->
     </div>
 
-    <!-- Footer -->
-    <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-        
-        <p>Powered by Coffee and Grit</p>
-    </footer>
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 </body>
-
 </html>
